@@ -1,10 +1,10 @@
-#include <iostream> /** -> preprocessor directive: including a file
-                           i/o stream (input, output streams)that our program needs to use later */
+#include <iostream> // -> preprocessor directive: including a file i/o stream (input, output streams)that our program needs to use later 
+                           
 
-using namespace std;     /** std: standard library */
-                               /** tabs, blank lines and spaces just make ur programe more readable*/
+using namespace std;     // std: standard library 
+                         // tabs, blank lines and spaces just make ur programe more readable
 
-int main()  /** 'int' indicates what type of data u are working with (integers here); 'main' determines the exercution order of function: usually strating from main functions */
+int main()  // 'int' indicates what type of data u are working with (integers here); 'main' determines the exercution order of function: usually strating from main functions       
                                      // -
 {                                    //  |
     cout << "Hello world!" << endl;  //  |
