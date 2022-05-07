@@ -5,26 +5,26 @@ using namespace std;     // std: standard library
                          // tabs, blank lines and spaces just make ur programe more readable
 
 int main()  // 'int' indicates what type of data u are working with (integers here); 'main' determines the exercution order of function: usually strating from main functions       
-                                     // -
-{                                    //  |
-    cout << "Hello world!" << endl;  //  |
+                                     
+{                                                                    // Function: consists of statements, must end with ';'
+    cout << "Hello world!" << endl;  
     /** 'cout' here: C out, the ALPA
-    object; output stream                |
-    operator; usually with a pair of     |
+    object; output stream                
+    operator; usually with a pair of     
     conjunction charecters
         '<<  <<':the stream insertion
     operator;
-        'endl': end line; go to the      .
-    next line        */                //.-------> Function: consists of statements, must end with ';'
-                                       //.
+        'endl': end line; go to the      
+    next line        */                
+                                       
 
     return 0;
-    /** 'return 0': used to check       |
-    the previous 'print sth'            |
-    excuation line is correct or        |
-    not  */                          // |
+    /** 'return 0': used to check       
+    the previous 'print sth'            
+    excuation line is correct or        
+    not  */                          
 
-}                                    // -
+}                                    
 
 
 
